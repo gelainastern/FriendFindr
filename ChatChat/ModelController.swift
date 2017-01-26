@@ -32,7 +32,7 @@ class ModelController {
     
     
     var newMessageRefHandle: FIRDatabaseHandle?
-    var storageRef: FIRStorageReference = FIRStorage.storage().reference(forURL: "gs://friendfindr-b5b12.appspot.com")
+    var storageRef: FIRStorageReference = FIRStorage.storage().reference(forURL: "(redacted)")
     var messages = [JSQMessage]()
     
     
